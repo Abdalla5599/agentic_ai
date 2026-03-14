@@ -14,3 +14,8 @@ print(f"Python Implementation: {platform.python_implementation()}")
 print(f"Executable Path      : {sys.executable}")
 print(f"Platform             : {platform.system()} {platform.release()}\n\n")
 ##############################################
+
+import getpass
+
+password = getpass.getpass("Enter password: ")
+print("Password received (hidden)")
